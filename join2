@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+    <link rel="stylesheet" href="회원가입.css" />
+  </head>
+  <body>
+    <br />
+    <h1 class="title">JOIN US</h1>
+    <br />
+    <hr />
+    <br />
+
+    <table border="1">
+      <caption>
+        <strong class="join_infor">&nbsp;&nbsp;&nbsp;가입정보 </strong>
+      </caption>
+      <br />
+      <tbody>
+        <tr>
+          <th>아이디</th>
+          <td>
+            <input id="ID" name="ID" placeholder value type="text" />
+          </td>
+        </tr>
+
+        <tr>
+          <th>비밀번호</th>
+          <td>
+            <input id="pswd1" name="PW" placeholder value type="text" />
+          </td>
+        </tr>
+
+        <tr>
+          <th>비밀번호 확인</th>
+          <td>
+            <input id="pswd2" name="Pw_check" placeholder value type="text" />
+          </td>
+        </tr>
+
+        <tr>
+          <th>이름</th>
+          <td>
+            <input id="name" name="name" placeholder value type="text" />
+          </td>
+        </tr>
+
+        <tr>
+          <th>휴대폰번호</th>
+          <td>
+            <input
+              id="phone_number1"
+              name="phone_number"
+              placeholder
+              value
+              type="text"
+              maxlength="3"
+            />
+            -
+            <input
+              id="phone_number2"
+              name="phone_number"
+              placeholder
+              value
+              type="text"
+              maxlength="4"
+            />
+            -
+            <input
+              id="phone_number3"
+              name="phone_number"
+              placeholder
+              value
+              type="text"
+              maxlength="4"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <th>생년월일</th>
+          <td>
+            <div>
+              <input
+                id="birth"
+                name="birth"
+                placeholder
+                value
+                type="text"
+                maxlength="4"
+                width="30px"
+              />
+              년
+              <input
+                id="birth"
+                name="birth"
+                placeholder
+                value
+                type="text"
+                maxlength="2"
+              />
+              월
+              <input
+                id="birth"
+                name="birth"
+                placeholder
+                value
+                type="text"
+                maxlength="2"
+              />
+              일
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <th>이메일</th>
+          <td>
+            <input
+              id="email"
+              name="email"
+              placeholder
+              value
+              type="text"
+              aria-placeholder=""
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="join_bt">
+      <button type="button" id="join_bt">
+        <span>가입하기</span>
+      </button>
+    </div>
+  </body>
+</html>
