@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>채팅만들기</title>
+    <link rel="stylesheet" href="채팅만들기1.css" />
+  </head>
+  <body></body>
+
+ <!--헤더(header)-->
+    <div class="container">
+      <header class="chat-screen">
+        <section class="chat-screen bar">
+        <div class="header_content flex">
+
+          <!--사용자 정보-->
+          <div class="user">
+            <div class="user_column">
+              <div class="user_pic"></div>
+            </div>
+            <div class="user_column">
+              <p class="user_nick">스키장 단톡방 ⛷❄</p>
+              <p class="user_count"><em>10</em></p>
+            </div>
+          </div>
+        </section>
+        <!--main-->
+        <div class="wrap">
+          <div class="chat ch1">
+            <div class="icon"><i class="user1"></i></div>
+            <div class="textbox">애들아 우리 스키장 갈까?</div>
+          </div>
+          <div class="chat ch2">
+            <div class="icon"><i class="user2"></i></div>
+            <div class="textbox"> 그럴까? 어디로 갈래?</div>
+          </div>
+          <div class="chat ch1">
+            <div class="icon"><i class="user1"></i></div>
+            <div class="textbox"> 곤지암 리조트 스키장 어때?</div>
+          </div>
+          <div class="chat ch2">
+            <div class="icon"><i class="user2"></i></div>
+            <div class="textbox"> 좋아!! </div>
+          </div>
+        </div>
+   </main>
+
+   <!--채팅입력창 및 전송버튼-->
+      <form class="chat-form">
+        <section class="chat-form-btn">
+          <textarea class="chat_msg"> </textarea>
+          <div class="send_message">
+            <form action="상대방에게 메시지 전송"></form>
+          <input type="submit" value="전송" class="chat_btn" />
+        </div>
+        </section>
+      </form>
+    </div>
+  </body>
+</html>
